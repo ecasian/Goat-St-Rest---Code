@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Goat St Restaurant</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="include/include.js" defer></script>
+  <script src="include/menu.js" defer></script>
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="menu-content">
+    <!-- Sección dinámica desde JSON -->
+    <section class="menu-section" id="pa-picar">
+      <h2>Pa' Picar</h2>
+      <div class="menu-items"></div>
+    </section>
+    
+    <!-- Secciones estáticas con nueva estructura -->
+    <section class="menu-section">
+      <h2>Main Dishes</h2>
+      <ul>
+        <li>
+          <div class="item-info">
+            <div class="item-name">Taco Miso</div>
+          </div>
+          <div class="item-price">$120</div>
+        </li>
+        <li>
+          <div class="item-info">
+            <div class="item-name">Sashimi Pastor</div>
+          </div>
+          <div class="item-price">$160</div>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="menu-section">
+      <h2>Drinks</h2>
+      <ul>
+        <li>
+          <div class="item-info">
+            <div class="item-name">Jamaica Kombucha</div>
+          </div>
+          <div class="item-price">$60</div>
+        </li>
+        <li>
+          <div class="item-info">
+            <div class="item-name">Matcha Agua Fresca</div>
+          </div>
+          <div class="item-price">$50</div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+</body>
+</html> 

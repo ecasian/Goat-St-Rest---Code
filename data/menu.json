@@ -1,0 +1,19 @@
+{
+  "pa-picar": [
+    {
+      "nombre": "Warm Olives",
+      "descripcion": "Citrus, chili, garlic",
+      "precio": "10"
+    },
+    {
+      "nombre": "Guacamole",
+      "descripcion": "Pico de gallo, herbs, totopos",
+      "precio": "22"
+    },
+    {
+      "nombre": "Chicharrón de queso",
+      "descripcion": "Crispy cheese roll, jalapeño aioli",
+      "precio": "18"
+    }
+  ]
+}
